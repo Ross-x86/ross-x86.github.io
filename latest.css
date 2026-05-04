@@ -1,0 +1,35 @@
+body {
+    /*I don't think looping tiles would be any useful anymore lol*/
+    color: white;
+    background: black;
+
+    /* CLAVE: evita el suavizado */
+    image-rendering: pixelated;
+
+    /* Centering a main heading */
+    h1 {
+        text-align: center;
+        color: yellow
+    }
+    
+    p {
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+        color: blue;
+    }
+
+    .centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .orderimg {
+    display: flex;
+    justify-content: center; /* mantiene todo centrado */
+    gap: 10px; /* espacio entre imágenes */
+}
+}
